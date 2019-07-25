@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <com.example.textviewdemo.MyTextView
+        android:id="@+id/muTextView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#999999"
+        app:nickName="张三："
+        app:chatContent="12345678909876543212345678909876543212345678909876543211234567890987654321234567890987654321234567890987654321"
+        app:nickNameColor="@color/colorAccent"
+        app:chatContentColor="#000000"
+        app:nickNameSize="20dp"
+        app:chatContentSize="18dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--直播聊天 item 文本-->
+    <declare-styleable name="MyTextView">
+        <attr name="nickNameColor" format="color" />
+        <attr name="chatContentColor" format="color" />
+        <attr name="nickNameSize" format="dimension" />
+        <attr name="chatContentSize" format="dimension" />
+        <attr name="nickName" format="string" />
+        <attr name="chatContent" format="string" />
+    </declare-styleable>
+
+</resources>
